@@ -15,8 +15,8 @@ namespace UserLogin
             if (loginVal.ValidateUserInput()) {
                 Console.WriteLine(UserData.TestUser.username);
                 Console.WriteLine(UserData.TestUser.password);
-                Console.WriteLine(UserData.TestUser.facNum);
-                Console.WriteLine(UserData.TestUser.userRole);
+                Console.WriteLine(UserData.TestUser.facultyNumber);
+                Console.WriteLine(UserData.TestUser.role);
 
             }
             

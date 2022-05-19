@@ -10,14 +10,14 @@ namespace UserLogin
     {
         public string username { get; set; }
         public string password { get; set; }   
-        public string facNum { get; set; }
-        public int userRole { get; set; }
+        public string facultyNumber { get; set; }
+        public int role { get; set; }
 
         public User(string username, string password, string facNum, int userRole) {
             this.username = username;
             this.password = password;
-            this.facNum = facNum; ;
-            this.userRole = userRole;
+            this.facultyNumber = facNum; 
+            this.role = userRole;
             
         }
 
